@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_screen"
+    android:background="@color/grey"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.HomeScreen"
+    app:cardCornerRadius="20sp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bank_logo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="250dp"
+        android:background="@color/black"
+        android:src="@drawable/bank"
+        android:layout_marginHorizontal="10dp"
+        />
+
+    <TextView
+        android:id="@+id/bank_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:background="@color/white"
+        android:theme="@android:style/Animation.Activity"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:text="@string/banking_system_app"
+        android:textColor="#DD433C55"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choice_options"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="90dp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <Button
+        android:id="@+id/all_users"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:onClick="showAllUsers"
+        android:text="@string/all_users"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/all_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/averia_serif_libre_light"
+        android:onClick="showAllTransactions"
+        android:text="@string/all_transactions"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/submitted_by"
+    android:textSize="15sp"
+        android:background="#CCC9C9"
+    android:layout_marginTop="40dp"
+    android:layout_marginStart="280dp"
+    android:textColor="@color/black">
+</TextView>
+</LinearLayout>

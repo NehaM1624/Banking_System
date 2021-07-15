@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Banking System</string>
+    <string name="banking_system_app">The Banking App</string>
+    <string name="all_users">List of Users</string>
+    <string name="all_transactions">Transactions Performed</string>
+    <string name="choice_options">Select your choice below:</string>
+    <string name="submitted_by">By: Neha Mondal</string>
+    <string name="tranfer_button">Transfer Money</string>
+</resources>
